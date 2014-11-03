@@ -102,3 +102,45 @@ blockquote {
   padding: .35em 0 .4em 0;
   margin: 0 .4em;
 }
+
+.row {
+  border-bottom: 1px solid #666;
+  margin-bottom: 5%;
+  padding-bottom: 5%;
+}
+
+.footer {
+  height: 30%;
+  width: auto;
+  background-color: #133551;
+  color: white;
+}
+
+.footer nav  {
+  position: relative;
+  top: 20%;
+  left: 35%;
+}
+
+.footer > nav > a:nth-child(n+2) {
+  border-left: 2pt solid #A3B35B;
+}
+
+.footer > nav > a {
+  color: #A3B3BF;
+  padding: 0 2ex;
+}
+
+.tiy{
+  color: #A3B3BF;
+  position: relative;
+  top: 2em;
+  left: 40%;
+}
+
+.tiy:before {
+  color: #A3B3BF;
+  content: url(https://a4a9af4a2e802671f00b4af7d94a218d2d71be32.googledrive.com/host/0B_9V0tR7amAncWVCbGNEZUhXYmM/icon-theironyard.png);
+  position: relative;
+  left: 7%;
+}

@@ -3,6 +3,8 @@ $navyB: rgb(11,53,80);
 
 header{
 	background-image: url("http://lorempixel.com/g/1920/1080/abstract/6/");
+	background-color: blue;
+	z-index: -1;
 	height: 400px;
 	font-type: "Open-Sans";
 	font-color: $white;
@@ -22,51 +24,61 @@ header{
 		}
 
 
-		nav{
-
+		nav {
+			width: 200px;
 
 				a {
 					font-family: 'Oswald', sans-serif;
 					list-style-type: none;
 					text-decoration: none;
 					color: $navyB;
+					margin-top: 15px;
 				}
 				
-				.right {
-					
-					position: fixed;
+				&.right {
+				
 					float:right;
-					margin-right: 0px;
-
+					margin-right: 10px;
 					
-					h4 {
-					font-family: 'Oswald', sans-serif;
-					width: 200px;
+
 
 						a {
-							position: fixed;
+			
 							float:right;
-							margin-right: 0px;
-							list-style-type: none;
-							text-decoration: none;
+							margin-right: 10px;
+							font-size: 15px;
+
+								&:hover {
+									text-decoration: none;
+									color: $navyB;
+
+								}
+
 						}
-					}
 				}
 
-				.left {
+				&.left {
 						list-style-type: none;
-					h5 {
+						float: left;
+						top-margin: 5px;
 						color: $navyB;
 						text-decoration: none;
 						font-family: 'Oswald', sans-serif;
+					
 
 						a {
 							list-style-type: none;
 							text-decoration: none;
+							font-size: 15px;
+
+								&:hover {
+									text-decoration: none;
+									color: $navyB;
+								}
 						}
 
 						
-					}
+					
 				}
 		}
 }

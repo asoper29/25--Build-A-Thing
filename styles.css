@@ -103,7 +103,7 @@ blockquote {
   margin: 0 .4em;
 }
 
-.row {
+#row1 {
   border-bottom: 1px solid #666;
   margin-bottom: 5%;
   padding-bottom: 5%;
@@ -143,4 +143,36 @@ blockquote {
   content: url(https://a4a9af4a2e802671f00b4af7d94a218d2d71be32.googledrive.com/host/0B_9V0tR7amAncWVCbGNEZUhXYmM/icon-theironyard.png);
   position: relative;
   left: 7%;
+}
+
+.col-md-3 img{
+  opacity:0.4;
+  color:#2971b0;
+  height:35%;
+  width:100%;
+  z-index:-1;
+  transition: visibility 0s 0.3s, opacity 1.3s, bottom 0.3s;
+}
+
+.title, .col-md-3 img:hover{
+  opacity:1.0;
+}
+
+.title{
+  position:absolute;
+  color:gray;
+  bottom:0;
+  left:0;
+  right:0;
+  margin: 0 auto;
+  margin-left:0;
+  padding:2ex 1em;
+  max-width:60%;
+  font-size:3ex;
+  color:white;
+}
+.col-md-3{
+  padding-right:0;
+  padding-left:0;
+  background-color:#2971b0;
 }

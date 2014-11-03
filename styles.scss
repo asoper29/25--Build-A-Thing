@@ -1,0 +1,72 @@
+$white: #ffffff;
+$navyB: rgb(11,53,80);
+
+header{
+	background-image: url("http://lorempixel.com/g/1920/1080/abstract/6/");
+	height: 400px;
+	font-type: "Open-Sans";
+	font-color: $white;
+
+		h1 {
+		text-align: center;
+		font-size: 80px;
+		color: $white;
+		font-weight: 395;
+
+		}
+
+		h3 { 
+		color: $white;
+		text-align: center;
+		font-size: 10px;
+		}
+
+
+		nav{
+
+
+				a {
+					font-family: 'Oswald', sans-serif;
+					list-style-type: none;
+					text-decoration: none;
+					color: $navyB;
+				}
+				
+				.right {
+					
+					position: fixed;
+					float:right;
+					margin-right: 0px;
+
+					
+					h4 {
+					font-family: 'Oswald', sans-serif;
+					width: 200px;
+
+						a {
+							position: fixed;
+							float:right;
+							margin-right: 0px;
+							list-style-type: none;
+							text-decoration: none;
+						}
+					}
+				}
+
+				.left {
+						list-style-type: none;
+					h5 {
+						color: $navyB;
+						text-decoration: none;
+						font-family: 'Oswald', sans-serif;
+
+						a {
+							list-style-type: none;
+							text-decoration: none;
+						}
+
+						
+					}
+				}
+		}
+}

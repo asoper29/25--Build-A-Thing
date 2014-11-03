@@ -8,17 +8,21 @@ header{
 	height: 400px;
 	font-type: "Open-Sans";
 	font-color: $white;
+	top: 0;
+
 
 		h1 {
 		text-align: center;
-		font-size: 80px;
+		font-size: 75px;
 		color: $white;
-		font-weight: 395;
+		font-weight: 300;
+		margin-top: 0;
+		padding-top: 100px;
 
 		}
 
 		h3 { 
-		color: $white;
+		color: $navyB;
 		text-align: center;
 		font-size: 10px;
 		}
@@ -61,6 +65,7 @@ header{
 						list-style-type: none;
 						float: left;
 						top-margin: 5px;
+						left-margin: 10px;
 						color: $navyB;
 						text-decoration: none;
 						font-family: 'Oswald', sans-serif;
@@ -70,6 +75,9 @@ header{
 							list-style-type: none;
 							text-decoration: none;
 							font-size: 15px;
+							margin-left: 19px;
+							margin-top: 10px;
+
 
 								&:hover {
 									text-decoration: none;

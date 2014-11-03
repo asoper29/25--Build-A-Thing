@@ -5,6 +5,7 @@
 h1 {
   color: #123456;
   font-size: 4.2em;
+  font-family: Helvetica;
 }
 
 #main {
@@ -20,6 +21,7 @@ h1 {
 
 #aside {
   padding: 0 10% 0 0;
+  margin-top: 2%;
 }
 
 #aside > a > h3 {
@@ -34,6 +36,15 @@ h1 {
 .gray {
   text-decoration: underline;
   color: #a2afba;
+}
+
+.gray:hover {
+
+}
+
+blockquote {
+  color: #428bca;
+  font-size: 4ex;
 }
 
 #content {

@@ -1,0 +1,178 @@
+.author {
+  border-radius: 50%;
+}
+
+h1 {
+  color: #123456;
+  font-size: 4.2em;
+  font-family: Helvetica;
+}
+
+#main {
+  height: 2em;
+  width: 2em;
+}
+
+#aside-img {
+  height: 4em;
+  width: 4em;
+  margin: 1em 40%;
+}
+
+#aside {
+  padding: 0 10% 0 0;
+  margin-top: 2%;
+}
+
+#aside > a > h3 {
+  margin: 0 3.3em;
+}
+
+#aside nav {
+  color: #a2afba;
+  margin: 5% 24%;
+}
+
+.gray {
+  text-decoration: underline;
+  color: #a2afba;
+}
+
+.gray:hover {
+
+}
+
+blockquote {
+  color: #428bca;
+  font-size: 4ex;
+}
+
+#content {
+  padding: 0 2% 0 10%;
+}
+
+#content > p {
+  margin:1em 0;
+}
+
+#sidebar {
+  font-size: 1.3em;
+  margin: 25% 0 5% 0;
+}
+
+#twitter {
+  margin: 0 0 0 1em;
+}
+
+#instagram {
+  margin: 0 3em;
+}
+
+.pixsum {
+  height: 25%;
+  width: 100%;
+  margin: 20% 0 0 0;
+}
+
+.fa-comment::before, .fa-cloud-upload::before, .fa-share-square-o::before {
+  font-size: 1.2em;
+  border: .3em solid #133551;
+  background-color: #133551;
+  color: white;
+}
+
+.fa-comment, .fa-cloud-upload{
+  background-color: #a2afba;
+  color: white;
+}
+
+.fa-share-square-o {
+  background-color: #2971B0;
+  color: white;
+}
+
+.icons > a > b {
+  margin: 0 1em;
+  display: inline-block;
+}
+
+.icons a {
+  height: auto;
+  width: auto;
+  padding: .35em 0 .4em 0;
+  margin: 0 .4em;
+}
+
+#row1 {
+  border-bottom: 1px solid #666;
+  margin-bottom: 5%;
+  padding-bottom: 5%;
+}
+
+.footer {
+  height: 30%;
+  width: auto;
+  background-color: #133551;
+  color: white;
+}
+
+.footer nav  {
+  position: relative;
+  top: 20%;
+  left: 35%;
+}
+
+.footer > nav > a:nth-child(n+2) {
+  border-left: 2pt solid #A3B35B;
+}
+
+.footer > nav > a {
+  color: #A3B3BF;
+  padding: 0 2ex;
+}
+
+.tiy{
+  color: #A3B3BF;
+  position: relative;
+  top: 2em;
+  left: 40%;
+}
+
+.tiy:before {
+  color: #A3B3BF;
+  content: url(https://a4a9af4a2e802671f00b4af7d94a218d2d71be32.googledrive.com/host/0B_9V0tR7amAncWVCbGNEZUhXYmM/icon-theironyard.png);
+  position: relative;
+  left: 7%;
+}
+
+.col-md-3 img{
+  opacity:0.4;
+  color:#2971b0;
+  height:35%;
+  width:100%;
+  z-index:-1;
+  transition: visibility 0s 0.3s, opacity 1.3s, bottom 0.3s;
+}
+
+.title, .col-md-3 img:hover{
+  opacity:1.0;
+}
+
+.title{
+  position:absolute;
+  color:gray;
+  bottom:0;
+  left:0;
+  right:0;
+  margin: 0 auto;
+  margin-left:0;
+  padding:2ex 1em;
+  max-width:60%;
+  font-size:3ex;
+  color:white;
+}
+.col-md-3{
+  padding-right:0;
+  padding-left:0;
+  background-color:#2971b0;
+}

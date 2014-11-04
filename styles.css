@@ -14,8 +14,8 @@ h1 {
 }
 
 #aside-author {
-  height: 4em;
-  width: 4em;
+  height: 5em;
+  width: 5em;
   margin-top: 5%;
 }
 
@@ -96,6 +96,7 @@ blockquote {
   border-bottom: 1px solid #666;
   margin-bottom: 5%;
   padding-bottom: 5%;
+  padding-top: 5%;
 }
 
 .footer {
@@ -130,8 +131,6 @@ blockquote {
   top: 50%;
   color: #A3B3BF;
   content: url(https://a4a9af4a2e802671f00b4af7d94a218d2d71be32.googledrive.com/host/0B_9V0tR7amAncWVCbGNEZUhXYmM/icon-theironyard.png);
-/*   position: relative;
-left: 7%; */
 }
 
 .posts-img{

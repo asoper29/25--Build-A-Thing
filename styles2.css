@@ -1,14 +1,15 @@
-.top{
-background-image: url("http://lorempixel.com/g/1920/1080/abstract/6/");
+.header-img{
+opacity: 0.4;
+color: #2971b0;
+width: 100%;
+z-index: -1;
 }
 
-header {
-opacity: 0.4;
-background-color: #2666A5;
+/* header {
 height: 400px;
 font-type: "Open-Sans";
 font-color: #ffffff;
-}
+} */
 
 header h1 {
 text-align: center;

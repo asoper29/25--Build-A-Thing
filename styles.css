@@ -1,3 +1,19 @@
+header {
+  background: rgba(0,128,255,0.5);
+  position: relative;
+  margin: 0;
+}
+
+.header-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  height: 100%;
+}
+
 .author {
   border-radius: 50%;
 }
@@ -13,33 +29,32 @@ h1 {
   width: 2em;
 }
 
-#aside-img {
-  height: 4em;
-  width: 4em;
-  margin: 1em 40%;
+#aside-author {
+  height: 5em;
+  width: 5em;
+  margin-top: 5%;
 }
 
 #aside {
   padding: 0 10% 0 0;
-  margin-top: 2%;
 }
 
-#aside > a > h3 {
-  margin: 0 3.3em;
+#aside-header {
+  margin: 2% auto 0 auto;
+  text-align: center;
 }
 
 #aside nav {
   color: #a2afba;
-  margin: 5% 24%;
+}
+
+#aside h3 {
+  margin-top: 1%;
 }
 
 .gray {
   text-decoration: underline;
   color: #a2afba;
-}
-
-.gray:hover {
-
 }
 
 blockquote {
@@ -57,19 +72,9 @@ blockquote {
 
 #sidebar {
   font-size: 1.3em;
-  margin: 25% 0 5% 0;
-}
-
-#twitter {
-  margin: 0 0 0 1em;
-}
-
-#instagram {
-  margin: 0 3em;
 }
 
 .pixsum {
-  height: 25%;
   width: 100%;
   margin: 20% 0 0 0;
 }
@@ -107,19 +112,20 @@ blockquote {
   border-bottom: 1px solid #666;
   margin-bottom: 5%;
   padding-bottom: 5%;
+  padding-top: 5%;
 }
 
 .footer {
-  height: 30%;
-  width: auto;
+  height: 150px;
+  width: 100%;
   background-color: #133551;
   color: white;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .footer nav  {
-  position: relative;
-  top: 20%;
-  left: 35%;
+  padding-top: 2em;
 }
 
 .footer > nav > a:nth-child(n+2) {
@@ -133,28 +139,25 @@ blockquote {
 
 .tiy{
   color: #A3B3BF;
-  position: relative;
-  top: 2em;
-  left: 40%;
 }
 
 .tiy:before {
+  position: relative;
+  display: block;
+  top: 50%;
   color: #A3B3BF;
   content: url(https://a4a9af4a2e802671f00b4af7d94a218d2d71be32.googledrive.com/host/0B_9V0tR7amAncWVCbGNEZUhXYmM/icon-theironyard.png);
-  position: relative;
-  left: 7%;
 }
 
-.col-md-3 img{
+.posts-img{
   opacity:0.4;
   color:#2971b0;
-  height:35%;
   width:100%;
   z-index:-1;
   transition: visibility 0s 0.3s, opacity 1.3s, bottom 0.3s;
 }
 
-.title, .col-md-3 img:hover{
+.posts:hover .posts-img{
   opacity:1.0;
 }
 
@@ -171,6 +174,7 @@ blockquote {
   font-size:3ex;
   color:white;
 }
+
 .col-md-3{
   padding-right:0;
   padding-left:0;
